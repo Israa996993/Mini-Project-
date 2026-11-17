@@ -1,0 +1,95 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #FFF8F3;
+    font-family: "Plus Jakarta Sans";
+}
+header{
+width: 100%;
+padding: 14px 0;
+box-shadow: 0px 1px 4px gray;  
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 95%;
+    margin: auto;
+}
+.container .logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.container .logo p{
+    font-size: 28px;
+    font-weight:600;
+    color: #0E0402;
+    font-family: "Playfair Display";
+}
+.container .items{
+    display: flex;
+    gap: 32px;
+}
+.container .items .home{
+    color: #845326;
+    text-decoration: underline;
+
+}
+.container .items a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #4F4442;
+}
+.container .items a:active{
+    color: #845326;
+    text-decoration: underline;
+}
+.container .buttons{
+    display: flex;
+    gap: 9.99px;
+}
+.container .visitus{
+    background-color: #2B1B17;
+    padding: 10px 24px;
+    font-size: 14px;
+    color: #FFF8F3;
+    border-radius: 12px;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+.container .visitus:hover{
+    background-color:#845326 ;
+    cursor: pointer;
+
+}
+.container .toggle-menu{
+    border: none;
+    display: none;
+}
+.container .logo .l2{
+    display: none;
+}
+
+/*Mobile*/
+@media (max-width:800px){    
+    .container .logo p{
+        font-size: 20px;
+    }
+    .container .items{
+        display: none;
+    }
+    .container .toggle-menu{
+        display: block;
+    }
+    .container .logo .l1{
+        display: none;
+    }
+    .container .logo .l2{
+        display: block;
+    }
+
+}
