@@ -13,6 +13,9 @@ width: 100%;
 padding: 14px 0;
 box-shadow: 0px 1px 4px rgb(207, 205, 205);  
 }
+main{
+    display: block;
+}
 .container{
     display: flex;
     justify-content: space-between;
@@ -325,8 +328,123 @@ box-shadow: 0px 1px 4px rgb(207, 205, 205);
     .item h2{
         font-size: 20px;
     }
+}
 
+/*Main - Section 4*/
+.sec4{
+    background-color:#2B1B17;
+    width: 100%;
+   
+    border-radius: 12px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.sec4 .cc{
+    width: 768px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 64px 207px;
+    gap: 24px;
+}
+.sec4 .wlcm{
+    background-color:#8453264D;
+    color:#FFDCC2;
+    padding: 6px 16px;
+    border-radius: 12px;
+    border: 1px solid #8453264D;
+    font-size: 12px;
+    font-weight: 600;
+ 
+}
+.sec4 .wlcm .fx{
+    margin-right: 8px;
 
+}
+.sec4 .btns1{
+    display: flex;
+    gap: 16px;
+}
+.sec4 .h .hh{
+    color: #FFF8F3;
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Playfair Display";
+    line-height: 72px;
+    text-align: center;    
+}
+.sec4 .pp{
+    color: #D3C3C0;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 29.25px;
+}
+.sec4 .btns1 .use{
+    padding: 12px 24px;
+    background-color: #FFF8F30D;
+    border: 1px dashed #845326;
+    border-radius: 4px;
+    color: #FFDCC2;
+}
+.sec4 .btns1 .use img{
+    margin-right: 8px;
+}
+.sec4 .btns1 .get{
+    padding: 12px 32px;
+    background-color: #845326;
+    border-radius: 4px;
+    border: none;
+    color: #FFF8F3;
+}
+/*Mobile*/
+@media (max-width: 800px){
 
+}
 
+/* Mobile */
+@media (max-width: 800px){
+    .sec4{
+        margin-top: 20px;
+        padding: 24px 16px;
+        border-radius: 16px;
+        text-align: center;
+    }
+    .sec4 .cc{
+        width: 100%;
+        margin: 0;
+        gap: 16px;
+    }
+    .sec4 .wlcm{
+        font-size: 12px;
+        padding: 4px 12px;
+    }
+    .sec4 .h .hh{
+        font-size: 40px;
+        line-height: 48px;
+        width: 100%;
+        text-align: center;
+    }
+    .sec4 .pp{
+        font-size: 16px;
+        line-height: 26px;
+        width: 100%;
+        text-align: center;
+    }
+    .sec4 .btns1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+     .sec4 .btns1 .get{
+        width: 100%;
+        padding: 14px;
+    }
+    .sec4 .btns1 .use{
+        padding: 12px;
+       
+    }
 }
