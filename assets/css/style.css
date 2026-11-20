@@ -399,10 +399,6 @@ main{
     border: none;
     color: #FFF8F3;
 }
-/*Mobile*/
-@media (max-width: 800px){
-
-}
 
 /* Mobile */
 @media (max-width: 800px){
@@ -447,4 +443,221 @@ main{
         padding: 12px;
        
     }
+}
+
+/*Footer*/
+footer{
+    background-color: #2B1B17;
+    color: #D3C3C0;
+    margin-top: 83.9px;
+    height: 422px;
+    padding:48px;
+}
+footer .tp{
+    display:flex;
+    justify-content:space-between;
+    gap:48px;
+}
+footer .col{
+    flex: 1;
+}
+footer .col .logoo{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 19.3px;
+}
+footer .col .logoo h3{
+    font-family: "Playfair Display";
+    color: #FFF8F3;
+    font-size: 28px;
+    font-weight: 600;
+}
+footer .col h4{
+    color:#FFF8F3;
+    margin-bottom:12px;
+    font-size:14px;
+}
+footer .col p, footer .col a{
+    color:#D3C3C0;
+    text-decoration:none;
+    font-size:14px;
+    line-height:22.4px;
+}
+footer .col a{
+    display:block;
+    margin-bottom:8px;
+}
+footer .social{
+    display:flex;
+    gap:12px;
+    margin-top:24px;
+}
+footer .btn-fou{
+    display:flex;
+    margin:12px 0 8px 0px;
+}
+footer .btn-fou input{
+    flex:1;
+    border: 1px solid #8174714D;
+    border-radius: 4px;
+    padding:10px 12px;
+    background:#49332D;
+}
+footer .btn-fou button{
+    background:#845326;
+    color:white;
+    border:none;
+    border-radius: 4px;
+    padding:12px 16px;
+    cursor:pointer;
+}
+footer hr{
+    margin:46px 38px 32px;
+    border:none;
+    border-top:1px solid #4E3A35;
+}
+footer .btm{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap: 389px;
+}
+footer .btm .links{
+    display:flex;
+    gap:30px;
+}
+footer .btm .links a{
+    color:#D3C3C0;
+    text-decoration:none;
+}
+footer .btm .links a:not(:last-child)::after{
+    content: "•";
+    margin: 0 24px;
+    color: #81747166;
+}
+.mob0{
+    display: none;
+}
+footer .col .phid{
+    display: none;
+}
+footer .qhor{
+   display: none;
+}
+footer .soc-p{
+    display: none;
+}
+
+/* Mobile */
+@media (max-width:800px){
+ .mob0{
+    display: block;
+    background-color: #FCF2E8;
+    width: 100%;
+    margin-top: 24px;
+    border-top:1px solid #D3C3C04D;
+    padding: 24px 16px;
+}
+.mob0 .hp{
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0402;
+    margin-bottom: 12px;
+}
+.itt{
+ display: flex;
+ gap: 8px;
+ margin-bottom: 8px;
+}
+.itt p{
+    color: #4F4442;
+    font-size: 14px;
+    font-weight: 400;
+}
+footer{
+    margin-top: 0;
+    height: auto;
+    padding: 40px 20px;
+    
+}
+footer .logoo img{
+    display: none;
+}
+footer .col .phid{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+   line-height: 20px;
+  
+}
+footer .col p{
+    display: none;
+}
+footer .tp{
+    display: flex;
+    flex-direction: column;
+}
+footer .hid{
+    display: none;
+}
+footer .qli{
+    display: none;
+}
+footer hr{
+    display: none;
+}
+
+footer .btm{
+    display: block;
+    
+}
+footer .btm p{
+    font-size: 11px;
+    font-weight: 400;
+    border-top: 2px solid #8174711A;
+    padding-top: 12px;
+}
+footer .btm .links{
+    display: none;
+}
+footer .hor{
+    display: flex;
+    gap: 125px;
+}
+footer .qhor{
+gap: 70px;
+
+}
+footer .e{
+    border-top: 2px solid #8174711A;
+    padding-top: 12px;
+}
+footer .hor a{
+    color: #FFF8F3CC;
+}
+footer .noo{
+    display: none;
+}
+footer .social{
+    display: none;
+}
+footer .soc-p{
+    display: flex;
+    border-top: 2px solid #8174711A;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    gap: 100px;
+    align-items: center;
+}
+footer .social2{
+    display: flex;
+    gap: 12px;
+}
+footer .soc-p p{
+    font-size: 11px;
+    font-weight: 400;
+}
+
+    
 }
