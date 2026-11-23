@@ -246,6 +246,19 @@ main{
     display: none;
 }
 
+.image-box:hover .image-frame img{
+    animation: move 0.8s ease;
+}
+
+@keyframes move{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
 /*Mobile*/
 @media (max-width: 800px){
     .sec1{
@@ -790,6 +803,19 @@ footer .soc-p p{
     cursor:pointer;
 }
 
+.card:hover{
+    animation:big 0.5s ease forwards;
+}
+
+@keyframes big{
+    from{
+        transform: translateY(0) scale(1);
+    }
+    to{
+        transform: translateY(-10px) scale(1.1);
+    }
+}
+
 /*Mobile*/
 @media (max-width:800px){
     .m{
@@ -973,6 +999,23 @@ footer .soc-p p{
 }
 .two-s{
     margin: 112px 48px;
+}
+
+.one-s img{
+    transform-origin: top center;
+    animation: swing 3s ease-in-out infinite;
+}
+
+@keyframes swing{
+    0%,100%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(3deg);
+    }
+    75%{
+        transform: rotate(-3deg);
+    }
 }
 
 /*Mobile*/
